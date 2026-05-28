@@ -32,7 +32,7 @@ My work studies how large language models acquire, expand, and preserve capabili
   ACL 2025 Main, first author. [[arXiv]](https://arxiv.org/abs/2502.10852) [[Code/Model]](https://github.com/asd765973346/xlm-swcm)
 
 - **CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China**  
-  EMNLP 2025 Main, co-first author. [[arXiv]](https://arxiv.org/abs/2509.09990) [[Dataset]](https://huggingface.co/datasets/KEVVVV/CMHG)
+  EMNLP 2025 Main, advisor as first author; co-first author. [[arXiv]](https://arxiv.org/abs/2509.09990) [[Dataset]](https://huggingface.co/datasets/KEVVVV/CMHG)
 
 - **Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax**  
   ACL 2026 Findings, first author. [[arXiv]](https://arxiv.org/abs/2605.14366)
