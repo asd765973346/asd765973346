@@ -52,9 +52,9 @@ My work studies how large language models acquire, expand, and preserve capabili
 
 ## Open Source
 
-- **Paper2Any**: An open-source system that turns papers, images, and text into editable research figures, technical route diagrams, and presentation materials. I contributed to DrawIO/PPT generation, PPTPolish, and knowledge-enhanced generation modules. [[GitHub]](https://github.com/OpenDCAI/Paper2Any)
+- **Paper2Any**: An open-source system that turns papers, images, and text into editable research figures, technical route diagrams, and presentation materials. I contributed to DrawIO/PPT generation, PPTPolish, and knowledge-enhanced generation modules. [[GitHub]](https://github.com/OpenDCAI/Paper2Any) [![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/Paper2Any?style=social)](https://github.com/OpenDCAI/Paper2Any)
 
-- **Open-NotebookLM**: An open-source document-centered knowledge system for semantic retrieval, evidence-grounded QA, and AI-assisted content generation. I worked on multi-source document ingestion and modules for PPT, mind maps, DrawIO, podcasts, quizzes, and deep research reports. [[GitHub]](https://github.com/OpenDCAI/Open-NotebookLM)
+- **Open-NotebookLM**: An open-source document-centered knowledge system for semantic retrieval, evidence-grounded QA, and AI-assisted content generation. I worked on multi-source document ingestion and modules for PPT, mind maps, DrawIO, podcasts, quizzes, and deep research reports. [[GitHub]](https://github.com/OpenDCAI/Open-NotebookLM) [![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/Open-NotebookLM?style=social)](https://github.com/OpenDCAI/Open-NotebookLM)
 
 ## Contact
 
