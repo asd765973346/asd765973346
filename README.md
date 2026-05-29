@@ -45,10 +45,12 @@ My work studies how large language models acquire, expand, and preserve capabili
 
 ## arXiv
 
-- [2502.10852] Multilingual Encoder Knows more than You Realize
-- [2509.09990] CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China
-- [2605.14366] Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax
+- [2605.29502] Source-Grounded Semantic Reinforcement Learning for Low-Resource Target-Language Generation
+- [2605.29491] The Curse of Helpfulness: Inverse Scaling Law in Robustness to Distractor Instructions via DistractionIF
 - [2605.26601] FTibSuite: A Comprehensive Resource Suite for Tibetan Vision-Language Modeling
+- [2605.14366] Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax
+- [2509.09990] CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China
+- [2502.10852] Multilingual Encoder Knows more than You Realize
 
 ## Open Source
 
