@@ -2,61 +2,70 @@
 
 ## About
 
-I am a master's student in Electronic Information at Minzu University of China and currently a research intern in the Data-Centric AI (DCAI) group at Peking University. My research focuses on multilingual LLMs, low-resource languages, RL for LLMs, LLM evaluation, and Agent capability evaluation.
+I am a master's student in Electronic Information at Minzu University of China and an incoming PhD student at the Data-Centric AI (DCAI) group, Peking University. I am currently looking for research internship opportunities related to LLM post-training, RL for LLMs, and Agent capability construction.
 
-My work studies how large language models acquire, expand, and preserve capabilities in multilingual and low-resource settings. I build datasets, models, and benchmarks for minority languages in China, explore reinforcement learning methods for low-resource language expansion, and investigate robustness and capability monitoring for RAG/Agent systems. Recently, I have been especially interested in Agentic RL and systematic monitoring of Agent potential during pretraining and midtraining.
+My research focuses on how large language models acquire, improve, and preserve capabilities through post-training. I am interested in reinforcement learning for LLMs, instruction-following robustness, semantic-reward optimization, data and benchmark construction, and Agent capability evaluation. My recent work studies post-training methods such as GRPO-based semantic reward learning, robustness recovery under distracting instructions, automatic benchmark generation for data-analysis agents, and systematic monitoring of Agent potential in pretraining and midtraining models.
 
-我是中央民族大学电子信息专业硕士生，目前在北京大学 Data-Centric AI (DCAI) 课题组实习，研究方向聚焦于 Multilingual LLM、Low-resource Language、RL for LLM、Evaluation for LLM 与 Agent 能力评测。
+Earlier in my research, I worked extensively on multilingual and low-resource language modeling, including datasets, models, and benchmarks for minority languages in China. I now treat these settings as important testbeds for studying capability expansion, alignment preservation, and post-training reliability.
 
-我的研究主线是围绕大语言模型在多语言与低资源环境中的能力扩展、对齐机制与可靠性评测展开：一方面构建面向藏语、维吾尔语、哈萨克语、蒙古语等中国少数民族语言的数据、模型和 benchmark；另一方面探索用强化学习后训练提升低资源语言能力，并降低对高资源语言通用能力的遗忘。近期我也关注 Agentic RL、RAG/Agent 场景鲁棒性，以及训练阶段模型 Agent 潜能的系统化监控。
+我是中央民族大学电子信息专业硕士生，即将加入北京大学 Data-Centric AI (DCAI) 课题组攻读博士。目前希望寻找大模型后训练、RL4LLM 与 Agent 能力构建相关的科研实习机会。
+
+我的研究关注大语言模型如何通过后训练获得、提升并保持复杂能力，具体包括 RL for LLM、指令遵循鲁棒性、语义奖励优化、数据与 benchmark 构建，以及 Agent 能力评测。近期工作围绕 GRPO 语义奖励强化学习、噪声指令干扰下的鲁棒性恢复、数据分析 Agent benchmark 自动构建，以及 pretrain/midtrain 阶段模型 Agent 潜能监测展开。
+
+早期研究主要集中在多语言与低资源语言建模，包括中国少数民族语言的数据、模型和评测基准建设。现在我更多将这些场景作为研究模型能力扩展、对齐保持与后训练可靠性的实验载体。
 
 ## Research Interests
 
-- Multilingual LLMs and low-resource language expansion
-- RL for LLMs and semantic-reward post-training
-- LLM evaluation, robustness, and reliability
-- Agent capability monitoring, tool use, and benchmark construction
-- RAG, knowledge-enhanced generation, and open research infrastructure
+- LLM post-training, RLHF/RLVR, GRPO, and semantic-reward optimization
+- Instruction following, robustness, and reliability under noisy or conflicting contexts
+- Agentic RL, tool-use evaluation, and Agent capability monitoring
+- Data synthesis, trajectory construction, and automatic benchmark generation
+- Multilingual and low-resource capability expansion as post-training testbeds
 
 ## Current Experience
 
 - **Data-Centric AI (DCAI) Group, Peking University**, Research Intern / Research Assistant, 2025.09 - Present  
-  Working on research and open-source systems related to Data-Centric AI, LLM data systems, Agents, and AI4Science.
+  Working on research and open-source systems related to Data-Centric AI, LLM data systems, Agents, benchmark construction, and AI4Science.
 
 - **Foundation Model Group (Ling), Ant Group**, Research Intern, 2025.10 - Present  
-  Building evaluation systems for Ling/Ring foundation models, including task design, metric construction, and analysis pipelines for real-world scenarios.
+  Working on instruction-following post-training optimization for Ling/Ring foundation models, including failure-mode analysis, training-feedback diagnosis, targeted data construction, and robustness-oriented alignment research.
 
 ## Accepted Papers
 
-- **Multilingual Encoder Knows more than You Realize: Shared Weights Pretraining for Extremely Low-Resource Languages**  
-  ACL 2025 Main, first author. [[arXiv]](https://arxiv.org/abs/2502.10852) [[Code/Model]](https://github.com/asd765973346/xlm-swcm)
-
-- **CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China**  
-  EMNLP 2025 Main, advisor as first author; co-first author. [[arXiv]](https://arxiv.org/abs/2509.09990) [[Dataset]](https://huggingface.co/datasets/KEVVVV/CMHG)
-
 - **Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax**  
-  ACL 2026 Findings, first author. [[arXiv]](https://arxiv.org/abs/2605.14366)
-
-- **FTibSuite: A Comprehensive Resource Suite for Tibetan Vision-Language Modeling**  
-  ACL 2026 Findings, co-first and corresponding author. [[arXiv]](https://arxiv.org/abs/2605.26601)
+  ACL 2026 Findings, first author. A GRPO-based semantic-reward post-training method for capability expansion while preserving general alignment. [[arXiv]](https://arxiv.org/abs/2605.14366)
 
 - **InsightBenchMaker: Towards Generating Evolving and High-Fidelity Benchmarks for Data-Analysis Agents**  
   ACL 2026 Findings, co-first author. An automatic benchmark construction framework for data-analysis agents with heterogeneous data, executable verification, and high-fidelity insight-data alignment.
 
-## arXiv
+- **FTibSuite: A Comprehensive Resource Suite for Tibetan Vision-Language Modeling**  
+  ACL 2026 Findings, co-first and corresponding author. A resource suite for Tibetan vision-language modeling, including data, benchmarks, and baseline models. [[arXiv]](https://arxiv.org/abs/2605.26601)
 
-- [2605.29502] Source-Grounded Semantic Reinforcement Learning for Low-Resource Target-Language Generation
-- [2605.29491] The Curse of Helpfulness: Inverse Scaling Law in Robustness to Distractor Instructions via DistractionIF
-- [2605.26601] FTibSuite: A Comprehensive Resource Suite for Tibetan Vision-Language Modeling
-- [2605.14366] Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax
-- [2509.09990] CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China
-- [2502.10852] Multilingual Encoder Knows more than You Realize
+- **Multilingual Encoder Knows more than You Realize: Shared Weights Pretraining for Extremely Low-Resource Languages**  
+  ACL 2025 Main, first author. A shared-weight pretraining framework for adapting multilingual encoders to extremely low-resource generation tasks. [[arXiv]](https://arxiv.org/abs/2502.10852) [[Code/Model]](https://github.com/asd765973346/xlm-swcm)
+
+- **CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China**  
+  EMNLP 2025 Main, advisor as first author; co-first author. A dataset and benchmark for headline generation in Tibetan, Uyghur, and Mongolian. [[arXiv]](https://arxiv.org/abs/2509.09990) [[Dataset]](https://huggingface.co/datasets/KEVVVV/CMHG)
+
+## Preprints / Under Review
+
+- **The Curse of Helpfulness: Inverse Scaling Law in Robustness to Distractor Instructions via DistractionIF**  
+  A diagnostic benchmark and analysis of instruction-following robustness under distracting pseudo-instructions in reference text, with GRPO-based robustness recovery. [[arXiv]](https://arxiv.org/abs/2605.29491)
+
+- **Base-model Agent-Potential Monitoring: Probing ReAct-like Interaction Ability in Pretrain and Midtrain Models**  
+  A framework for monitoring Agent-like interaction ability in base and midtraining models through few-shot reasoning, structured action generation, and real environment interaction.
+
+- **Source-Grounded Semantic Reinforcement Learning for Low-Resource Target-Language Generation**  
+  A source-grounded semantic RL framework for reference-free low-resource target-language generation. [[arXiv]](https://arxiv.org/abs/2605.29502)
+
+- **Expert Attention: Routing-Guided Static Pruning for Transformer Encoders**  
+  A routing-guided structured pruning method for Transformer encoders.
 
 ## Open Source
 
 - **Paper2Any**: An open-source system that turns papers, images, and text into editable research figures, technical route diagrams, and presentation materials. I contributed to DrawIO/PPT generation, PPTPolish, and knowledge-enhanced generation modules. [[GitHub]](https://github.com/OpenDCAI/Paper2Any) [![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/Paper2Any?style=social)](https://github.com/OpenDCAI/Paper2Any)
 
-- **Open-NotebookLM**: An open-source document-centered knowledge system for semantic retrieval, evidence-grounded QA, and AI-assisted content generation. I worked on multi-source document ingestion and modules for PPT, mind maps, DrawIO, podcasts, quizzes, and deep research reports. [[GitHub]](https://github.com/OpenDCAI/Open-NotebookLM) [![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/Open-NotebookLM?style=social)](https://github.com/OpenDCAI/Open-NotebookLM)
+- **Open-NotebookLM**: An open-source document-centered knowledge system supporting semantic retrieval, evidence-grounded QA, AI-assisted note generation, mind maps, slides, podcasts, quizzes, and deep research reports. I contributed to multi-source document ingestion and generation modules for slides, mind maps, DrawIO diagrams, podcasts, quizzes, and deep research reports. [[GitHub]](https://github.com/OpenDCAI/Open-NotebookLM) [![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/Open-NotebookLM?style=social)](https://github.com/OpenDCAI/Open-NotebookLM)
 
 ## Contact
 
